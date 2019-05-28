@@ -1,0 +1,14 @@
+                     _______SHORT INSTRUCTION______
+
+/purchase/{date}/{price}/{currency}/{productName}   <---This command add purchase to database(POST);
+
+/all                              <---This command finds all sorted by date with pagination(GET);
+
+/report/{year}/{currency}         <---This command will calculate the total income for specified year,
+                                      convert and present it in specified currency(GET);
+
+/                                 <---This command gives you instruction and map of all available currencies mapped to EUR (GET);
+
+/clear/{date}                     <---This command will remove all purchases for specified date(DELETE);
+
+Date format to input:  YYYY-MM-DD (Example: 2015-03-25)
